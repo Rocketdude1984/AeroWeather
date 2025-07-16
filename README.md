@@ -20,3 +20,6 @@ A personal project to design, build, and program a working weather station that 
 5. LTR390-UV Ultraviolet Sensor: https://www.amazon.com/dp/B0CHJL143Z?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
 6. VEML7700 Ambient Light Sensor: https://www.amazon.com/dp/B09KGYF83T?ref=ppx_yo2ov_dt_b_fed_asin_title
 7. 6V3W Waterproof Solar Panel: https://www.amazon.com/dp/B0CS364JGG?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
+
+## Power
+The station will be powered by a single 18650 (if more capacity is needed, 2 in parallel will be used later). To keep the battery charged, the station will have a built in 6V3W solar panel that charges the battery through a TP4056 charging module.
