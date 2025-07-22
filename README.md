@@ -21,5 +21,17 @@ A personal project to design, build, and program a working weather station that 
 6. VEML7700 Ambient Light Sensor: https://www.amazon.com/dp/B09KGYF83T?ref=ppx_yo2ov_dt_b_fed_asin_title
 7. 6V3W Waterproof Solar Panel: https://www.amazon.com/dp/B0CS364JGG?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
 
+## Modules
+The weather station will be built in 4 modules.
+1. Power and basic variables (Main module)
+2. Wind vane
+3. Anemometer
+4. Rain gauge
+
+Each module will be connected together to the main module where all collected data will be sent to the cloud.
+
 ## Power
 The station will be powered by a single 18650 (if more capacity is needed, 2 in parallel will be used later). To keep the battery charged, the station will have a built in 6V3W solar panel that charges the battery through a TP4056 charging module.
+
+## Materials
+Most of the station is printed with PETG which should be able to withstand fairly high outdoor temperatures and resist fading or cracking. 1" PVC pipe is used for the main support to hold each module of the station. For extra UV protection a few coats of white spray paint will be used.
