@@ -1,4 +1,4 @@
-# AeroWeather: DIY weather station and app
+# EchoWeather: DIY weather station and app
 A personal project to design, build, and program a working weather station that connects to a database and smart phone app. Collected data will then be used to train an AI model that will predict future weather variables.
 
 ## Weather Variables
